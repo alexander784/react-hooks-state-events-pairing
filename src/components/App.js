@@ -45,6 +45,7 @@ function App() {
       </button>
 
       <hr />
+      { showComments && <Comments /> }
 
 
     </div>
